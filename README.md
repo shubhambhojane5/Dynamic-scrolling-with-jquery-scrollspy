@@ -1,6 +1,6 @@
 # Dynamic-scrolling-with-jquery-scrollspy
 
-## Features
+## Contents
 
 1. Overview
 1. Setup
