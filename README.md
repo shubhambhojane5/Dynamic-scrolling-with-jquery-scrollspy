@@ -10,7 +10,7 @@
 
 ###### Overview
 
-Dynamic scrolling with jquery scrollspy allow developer to load full data at once without any challages. Jquery ery scrollspy only load viewport details and rest will load accordingly viewport changes. It also allow to do custom changes in scrollspy events.
+Dynamic scrolling with jquery scrollspy allow developer to load full data at once without any challenges. Jquery scrollspy detects viewport so that we can add dynamic HTML without any performances issue. It also allow to do custom changes in scrollspy events.
 
 ###### Setup
 
@@ -22,7 +22,7 @@ Inclue jquery and jquery scrollspy in project. Scrollspy provide viewport on win
 
 ###### Probelm defination and code sample
 
-We have more than 500+ row with 20+ columns and every column have custom html control(input, datepicker etc) and every controls are editable. If we try to load all this row at once, will face performace issues while scrolling and editing. So in that case jquery scrollspy will come in role to help to load all data at once without any performance issue. Just load blank table with row id's, Scrollspy detects the viewport and allow developer to add dynamic HTML on runtime using prefind method like scrollspy:enter and also remove the HTML which are not present in viewport using scrollspy:exit.
+We have more than 500+ row with 20+ columns and every column have custom html control(input, datepicker etc) and every controls are editable. If we try to load all this row at once, will face performance issues while scrolling and editing. So in that case jquery scrollspy will come in role to help to load all data at once without any performance issue. Just load blank table with row id's, Scrollspy detects the viewport and allow developer to add dynamic HTML on runtime using predefined method like scrollspy:enter and also remove the HTML which are not present in viewport using scrollspy:exit.
 
 - First we have change the default behaviour of scrollspy viewport to table viewport.
 - $('#table_id tr').on('scrollSpy:enter', function () {
