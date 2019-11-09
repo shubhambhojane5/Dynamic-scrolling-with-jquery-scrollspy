@@ -3,10 +3,10 @@
 ## Contents
 
 1. Overview
-1. Setup
-2. Links
-3. Probelm defination and code sample
-4. References
+2. Setup
+3. Links
+4. Probelm defination and code sample
+5. References
 
 ###### Overview
 
